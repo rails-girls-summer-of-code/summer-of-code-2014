@@ -1,4 +1,7 @@
 // Main JS
+//= require vendor/modernizr-2.6.2-respond-1.1.0.min.js
+//= require vendor/jquery-ui-1.10.2.custom.min.js
+//= require vendor/jquery.stellar
 
 $(document).ready(function() {
 
