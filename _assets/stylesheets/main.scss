@@ -1,5 +1,7 @@
 //= require normalize
 
+@import "compass";
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -29,7 +31,7 @@ body {
 
 ::-moz-selection, ::selection {
   background: #b3d4fc;
-  text-shadow: none;
+  @include text-shadow(none);
 }
 
 p {
@@ -86,10 +88,7 @@ textarea {
   right: 0;
   height: 4.1em;
   background-color: rgba(176, 39, 9, 0.8);
-  transition: all .5s ease;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -o-transistion: all .5s ease;
+  @include transition(all .5s ease);
 }
 
 .logo-nav {
@@ -120,9 +119,6 @@ textarea {
 
 .no-scroll {
   position: relative;
-  /*transform: translateY(-100%);
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);*/
   background-color: #de390c;
   .logo-nav {
     display: none;
@@ -236,13 +232,9 @@ a.button {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: normal;
-  -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
-  box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  @include box-shadow(inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25));
+  @include border-radius(10px);
+  @include text-shadow(1px 1px 0px rgba(0, 0, 0, 0.5));
 }
 
 /* credits for button effect go to
@@ -252,16 +244,13 @@ http://inspectelement.com/tutorials/create-a-slick-css3-button-with-box-shadow-a
   &:hover {
     text-decoration: none;
     color: white;
-    -webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    @include box-shadow(inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5));
   }
   &:active {
     text-decoration: none;
     position: relative;
     top: 5px;
-    -webkit-box-shadow: inset 0px -3px 1px rgba(255, 255, 255, 1), inset 0 0px 3px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: inset 0px -3px 1px rgba(255, 255, 255, 1), inset 0 0px 3px rgba(0, 0, 0, 0.9);
-    box-shadow: inset 0px -3px 1px rgba(255, 255, 255, 1), inset 0 0px 3px rgba(0, 0, 0, 0.9);
+    @include box-shadow(inset 0px -3px 1px rgba(255, 255, 255, 1), inset 0 0px 3px rgba(0, 0, 0, 0.9));
     &:after {
       content: "";
       width: 100%;
@@ -522,10 +511,7 @@ ul {
 }
 
 .slide1, .slide3 {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include background-size(cover);
   min-height: 30em;
 }
 
@@ -552,10 +538,8 @@ ul {
     display: inline-block;
     width: 50%;
     height: 4.5em;
-    opacity: .5;
-    transition: opacity 200ms linear;
-    -webkit-transition: opacity 200ms linear;
-    -moz-transition: opacity 200ms linear;
+    @include opacity(0.5);
+    @include transition(opacity 200ms linear);
   }
   .github {
     background: url(../img/sponsors/GitHub_Logo.png);

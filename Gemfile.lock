@@ -61,5 +61,5 @@ PLATFORMS
 DEPENDENCIES
   compass
   jekyll
-  jekyll-assets
+  jekyll-assets (~> 0.5)
   uglifier
