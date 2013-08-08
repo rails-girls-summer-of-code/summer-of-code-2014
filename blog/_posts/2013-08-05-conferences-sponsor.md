@@ -10,84 +10,85 @@ twitter: floordrees
 
 <div class="announce">We have been offered no less than 49 free tickets at some of the best Ruby conferences on 3 different continents. Behold: the conferences that so kindly sponsored tickets to ther events (and in some cases even flight tickets!) for our Summer of Code participants and some important side notes (like hashtags and stuff).</div>
 
-<div style="text-align:center;font-size:.85em;font-style:italic;"><img src="" width="80%" /><br /><span></span></div>
-
 ###The conferences
 
 #####JRubyConf
 <div style="text-align:right"><img src="../img/confs/arrrrcamp.png" width="80%" /></div>
 **August 13-14, Berlin**
-After a first successful European excursion in 2012, [JRubyConf][1] is back. Bigger and better — this year as a two-day, single track conference. 
+After a first successful European excursion in 2012, [JRubyConf][1] is back. Bigger and better (of course) with a two-day, single track conference program. 
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/5" target="_blank">Spree Girls</a> & <a href="http://teams.railsgirlssummerofcode.org/teams/15" target="_blank">D*</a> at <a href="https://twitter.com/JRubyConfEU" target="_blank">JRubyConf</a>!
 
 #####Madison Ruby Conference
 **August 23-24, Madison**
-Madison Ruby Conference is more than a typical one-track conference. We’re committed to bringing together two great communities by showcasing the assets of the local Ruby community and allowing Madison visitors a chance to experience one of the best, brainiest, and least-expensive places in the United States to live and work. This is the only conference in the Midwest where you’ll meet developers, yogis, business developers, and perhaps even artisan foodies all in the same place. Inspire, energize, and connect with Madison Ruby Conference. 
-RailsBridge Womens Outreach Workshop - This workshop is intended to reach out to women (of all skill levels) who are interested and / or new to Ruby and Rails.
-
-In this workshop, we'll take you through building a complete web application using Ruby on Rails. By the end of the workshop, you'll have an application on the internet that connects to a database and reads and writes information.
+[Madison Ruby Conference][2] is committed to bringing together two great communities by showcasing the assets of the local Ruby community and allowing Madison visitors a chance to experience one of the best, brainiest, and least-expensive places in the United States to live and work. 
+Plus: Madison Ruby Conference will host a RailsBridge Womens Outreach Workshop, intended to reach out to women (of all skill levels) who are interested and / or new to Ruby and Rails.
+**Meet:** Team <a href="http://www.twitter.com/teamhacketyhack" target="_blank">Hackety Hack</a> & <a href="http://www.twitter.com/RG_TeamUnicorn" target="_blank">Team Unicorn</a> at <a href="https://twitter.com/MadisonRuby" target="_blank">Madison Ruby</a>!
 
 #####Distill
 **August 8-9, San Francisco**
- Distill is a developer conference featuring over 25 speakers showcasing best practices from application architecture and user experience to testing and security. By attending, you will gain a deeper understanding of new technologies and progressive methods currently on the rise in software development. You will hear from such luminaries as Hampton Catlin (inventor of Sass), Konstantin Haase (maintainer of Sinatra and Travis.CI), Matthew Weier O'Phinney (project lead on the Zend Framework), John Paul (lead architect at Conde Nast) and many more.
-
-The conference will take place on Treasure Island in San Francisco where you will experience stellar content supplemented by gorgeous views of the skyline and bay. Distill is about education, cross-pollination and community--for you to forge new relationships with your fellow attendees and leave the event feeling enriched, edified and inspired. 
+[Distill][12] is a developer conference featuring over 25 speakers (like Summer of Code coach Konstantin Haase) showcasing best practices from application architecture and user experience to testing and security.
+**Meet:** Team <a href="http://www.twitter.com/rgsocbundler" target="_blank">Bundler</a> at <a href="https://twitter.com/distill" target="_blank">Distill</a>!
 
 #####Eurucamp
 **August 16-18, Berlin**
-eurucamp 2013 will be far more than a conference: it will be a week of Ruby goodness in Berlin. To pull that off, we changed our organisation structure and will reintroduce some of the interesting ideas from last year to widen the reach of the camp.
-If you ever came to a conference city early, you might have noticed that there is a lot going on before the event: people meeting in downtown for a coffee, doing sightseeing or meeting at co-working spaces for working and hacking together. The conference organizers are always part of that, giving recommendations over Twitter and similar channels. We'd like to encourage more people to take part in these impromptu events. Thats why we make the days before the conferences an official part of the program. That enables us to propose activities on those days and allow locals to do the same.
+[eurucamp 2013][15] will be far more than a conference: it will be a week of Ruby goodness in Berlin. Geek camp ftw! The days before the conferences are an official part of the program, with activities planned for locals and first-time Berlin visitors alike.
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/5" target="_blank">Spree Girls</a> & <a href="https://twitter.com/RailsGrrls" target="_blank">RailsGrrls</a> at <a href="https://twitter.com/eurucamp" target="_blank">eurucamp</a>!
+
+<div style="text-align:center;font-size:.85em;font-style:italic;"><img src="" width="80%" /><br /><span></span></div>
 
 #####The Strange loop
 **September 18-20, St.Louis**
-Strange Loop is a multi-disciplinary conference that aims to bring together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, mobile development, and the web.  
-Strange Loop was created in 2009 by software developer Alex Miller and is now run by a team of St. Louis-based friends and developers under Strange Loop LLC, a for-profit but not particularly profitable venture.
+[Strange Loop][8] is a multi-disciplinary conference that aims to bring together the developers and thinkers building tomorrow's technology.
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/6" target="_blank">New Rosies</a> at The Strange Loop!
 
 #####SoCoded
 **September 19-20, Hamburg**
-Learn & hack for 2 days top notch international speakers and 150 fellow web devs.
-We are premiering this year as the two-day campfire event for developers in central Europe. With about a dozen international speakers we are bringing Ruby, Python, JavaScript, PHP and our shared passion for the web together. Join them and 150 fellow coders in Hamburg to learn, teach, hack and have fun.
-
-So Coded is crafted to your convenience. We think good talks need their time to sink in. So we made room for you to think and talk about them. We think boring talks are annoying so we skip them and go only with a handful awesome speakers each day. We think a hacker conference should be about hacking. So we have rented a whole house to make room for you to mingle. 
+Learn & hack for 2 days at [SoCoded][6], with top notch international speakers and 150 fellow web developers. SoCoded brings together the best of Ruby, Python, JavaScript, PHP in Hamburg.
+**Meet:** Team <a href="https://twitter.com/teamhacketyhack" target="_blank">Hackety Hack</a> & <a href="http://teams.railsgirlssummerofcode.org/teams/15" target="_blank">D*</a> at <a href="https://twitter.com/socodedconf" target="_blank">SoCoded</a>!
 
 #####Ruby Shift
 **September 27—28, Kiev**
-4th annual RubyShift 2013, an independent non-profit conference on Ruby and satellite technologies with accent on making new friends, being inspired, and having fun.
+This year will be the 4th time [RubyShift][4] takes place, an independent non-profit conference on Ruby and satellite technologies with accent on making new friends, being inspired, and having fun.
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/5" target="_blank">Spree Girls</a>, <a href="http://teams.railsgirlssummerofcode.org/teams/15" target="_blank">D*</a>, <a href="https://twitter.com/inchworms_" target="_blank">Team inchworms</a> & <a href="https://twitter.com/highwaytorails" target="_blank">Team Highway to Rails</a> at <a href="https://twitter.com/rubyshift" target="_blank">Ruby Shift</a>!
 
 #####Arrrrcamp
 **October 3-4, Ghent**
-A 2-day, dual track Ruby, Rails and web related conference with plenty of good speakers, loads of free rum and a free pirate twist. Ayeee!
+A 2-day, dual track Ruby, Rails and web related conference with plenty of good speakers, loads of free rum and a free pirate twist. That sure sounds like [Arrrrcamp][10]!
+**Meet:** Team <a href="https://twitter.com/oanasipos" target="_blank">Oana</a> & <a href="https://twitter.com/RG_TeamUnicorn" target="_blank">Team Unicorn</a> at <a href="https://twitter.com/arrrrcamp" target="_blank">Arrrrcamp</a>!
 
 #####Rails Israel
 **October 9, Tel Aviv**
-http://www.youtube.com/watch?v=paCPoa5lLCA
+[Rails Israel][3] is best described watching this <a href="http://www.youtube.com/watch?v=paCPoa5lLCA" target="_blank">YouTube video</a>. Tel Aviv bringing you Rails awesomeness, garanteed!
+**Meet:** Team <a href="https://twitter.com/highwaytorails" target="_blank">Highway to Rails</a> at Rails Israel!
 
 #####DevCon
 **October 10, Tel Aviv**
-http://www.youtube.com/watch?v=vRiNHEaC5_4
-Server side development & rock and roll.
+[DevCon][11] is best described with 'server side development & rock and roll'. And this <a href="http://www.youtube.com/watch?v=vRiNHEaC5_4">YouTube video</a>.
+**Meet:** Team <a href="https://twitter.com/highwaytorails" target="_blank">Highway to Rails</a> at DevCon!
 
 #####RuPy
 **October 11-13, Budapest**
-RuPy is a unique conference that brings together communities from different state-of-the-art programming languages Ruby, Python, JavaScript, Clojure and related technologies.
+[RuPy][5] is a unique conference that brings together communities from different state-of-the-art programming languages Ruby, Python, JavaScript, Clojure and related technologies.
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/5" target="_blank">Spree Girls</a> at <a href="https://twitter.com/RuPy" target="_blank">RuPy</a>!
 
 #####Wicked Good Ruby
 **October 12-13, Boston**
-Join us for a two day, double track Ruby conference at the Seaport World Trade Center in Boston, MA! 
-Boston's first annual Ruby conf!
+[Wicked Good Ruby][9] is a two day, double track Ruby conference at the Seaport World Trade Center in Boston. AND: it's Boston's first annual Ruby conf!
+**Meet:** Team <a href="https://twitter.com/RG_TeamUnicorn" target="_blank">Team Unicorn</a> at <a href="https://twitter.com/WickedGoodRuby" target="_blank">Wicked Good Ruby</a>!
 
 #####dotRB
 **October 18, Paris**
-The largest Ruby conference in France. This is a conference made by developers for developers. We will have few but exceptional speakers on stage. Among them, the maintainers of the most popular Ruby projects, the implementors of Ruby runtimes, ... Just great hackers all-around.
-Our goal is to create a unique, affordable and enjoyable conference for Ruby developers. dotRB will take place on October 18, in the same amazing venue as our previous conference dotJS 2012. There will also be a Workshop Day on October 19.
+[dotRB][13] is the largest Ruby conference in France and truly a conference made by developers for developers, with exceptional speakers on stage, like the maintainers of the most popular Ruby projects, the implementors of Ruby runtimes, ... Just great hackers all-around. There will also be a Workshop Day on October 19. <3
+**Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/7" target="_blank">Species+</a>, <a href="https://twitter.com/inchworms_" target="_blank">Team inchworms</a> & <a href="https://twitter.com/highwaytorails" target="_blank">Highway to Rails</a> at <a href="https://twitter.com/JRubyConfEU" target="_blank">JRubyConf</a>!
 
 #####FutureStack
 **October 24-25, San Francisco**
-In a time where software shapes everything, developers have become the new kingmakers, our age’s reality alchemists. FutureStack is future tense. It’s tomorrow and the day after—and right now—all at the same time. Join your fellow Sys Admins, Leads, Devs, and Data Analysts and learn how FutureStack will help revolutionize the world you’re helping to create.
-The future is yours. What will you build next?
+[FutureStack][14] is: "tomorrow and the day after—and right now—all at the same time". Join your fellow Sys Admins, Leads, Devs, and Data Analysts and learn how FutureStack will help revolutionize the world you’re helping to create!
 
 #####StarTechConf
 **October 25-26, Santiago**
-Don't miss the greatest tech event in Chile. The conference that brings together world renowned stars in software development and local tech experts to talk about HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile and more.
+Don't miss out on what is advertised to be the greatest tech event in Chile: [StarTechConf][7]. The conference brings together world renowned stars in software development and local tech experts to talk about HTML5, CSS3, JavaScript, Ruby, Java, Python, Mobile and much more.
+**Meet:** Team <a href="https://twitter.com/punchgirls" target="_blank">Punchgirls</a> at <a href="https://twitter.com/startechconf" target="_blank">StarTechConf</a>!
 
 [1]: http://2013.jrubyconf.eu/#
 [2]: http://madisonruby.org/
