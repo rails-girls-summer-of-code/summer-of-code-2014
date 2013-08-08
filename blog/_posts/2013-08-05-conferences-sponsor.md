@@ -34,7 +34,7 @@ Plus: Madison Ruby Conference will host a RailsBridge Womens Outreach Workshop, 
 [eurucamp 2013][15] will be far more than a conference: it will be a week of Ruby goodness in Berlin. Geek camp ftw! The days before the conferences are an official part of the program, with activities planned for locals and first-time Berlin visitors alike.
 **Meet:** Team <a href="http://teams.railsgirlssummerofcode.org/teams/5" target="_blank">Spree Girls</a> & <a href="https://twitter.com/RailsGrrls" target="_blank">RailsGrrls</a> at <a href="https://twitter.com/eurucamp" target="_blank">eurucamp</a>!
 
-<div style="text-align:center;font-size:.85em;font-style:italic;"><img src="" width="80%" /><br /><span></span></div>
+<div style="text-align:center;font-size:.85em;font-style:italic;"><img src="/img/eurucamp.jpg" width="500px" /><br /><span>A conference with a view - eurucamp</span></div>
 
 #####The Strange loop
 **September 18-20, St.Louis**
@@ -55,6 +55,8 @@ This year will be the 4th time [RubyShift][4] takes place, an independent non-pr
 **October 3-4, Ghent**
 A 2-day, dual track Ruby, Rails and web related conference with plenty of good speakers, loads of free rum and a free pirate twist. That sure sounds like [Arrrrcamp][10]!
 **Meet:** Team <a href="https://twitter.com/oanasipos" target="_blank">Oana</a> & <a href="https://twitter.com/RG_TeamUnicorn" target="_blank">Team Unicorn</a> at <a href="https://twitter.com/arrrrcamp" target="_blank">Arrrrcamp</a>!
+
+<div style="text-align:center;font-size:.85em;font-style:italic;"><img src="/img/arrrrcamp.jpg" width="500px" /><br /><span>Arrrrcamp 2012</span></div>
 
 #####Rails Israel
 **October 9, Tel Aviv**
