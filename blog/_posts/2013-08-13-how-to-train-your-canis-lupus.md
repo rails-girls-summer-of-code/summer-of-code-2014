@@ -56,7 +56,7 @@ Wiktoria
 </div>
 <br />
 
-<div class="content">
+<div>
 
   :)
 
