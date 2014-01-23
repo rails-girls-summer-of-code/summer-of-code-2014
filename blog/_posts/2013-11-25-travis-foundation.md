@@ -10,7 +10,7 @@ twitter: RailsGirlsSoc
 
 So much love! 
 
-Travis launched their [Foundation](foundation.travis-ci.org) officially last friday and the happy happy news made quite some noise in everybody's tiwtter feed/ mail boxes. Great news for Open Source, since they launched Open Source Grants and will basically support amazing things happening. &hearts;
+Travis launched their [Foundation](http://foundation.travis-ci.org) officially last friday and the happy happy news made quite some noise in everybody's tiwtter feed/ mail boxes. Great news for Open Source, since they launched Open Source Grants and will basically support amazing things happening. &hearts;
 
 ![get_cat](https://f.cloud.github.com/assets/1711357/1613442/45d34646-55d9-11e3-8fcd-3f0f31c0af23.gif)
 <div align="left"><font size="2px"><font color="#CAD4D4">We hope, this will be one of the next OS projects, they help fund!</font></font></div>
