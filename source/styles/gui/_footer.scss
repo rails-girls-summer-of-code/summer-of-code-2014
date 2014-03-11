@@ -1,0 +1,14 @@
+
+.siteFooter {
+	position: relative;
+	height: 8em;
+	padding: 2.5em 0;
+	z-index: 10;
+	background-color: $red;
+	color: $white;
+
+	a {
+		color: $white;
+		text-decoration: underline;
+	}
+}

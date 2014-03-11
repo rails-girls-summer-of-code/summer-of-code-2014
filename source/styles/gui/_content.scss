@@ -1,0 +1,30 @@
+
+
+.content {
+	@include span-columns(8 alpha, 12);
+}
+.block-title {
+	font-size: $font-size-l;
+}
+
+.content-block, .sidebar--home .sidebar-block {
+	padding: 0 0 2em;
+	border-top: solid .2em $red;
+}
+
+.sidebar-block {
+
+	.blog & {
+		border-top: solid 1px $lightgray;
+	}
+
+}
+.sidebar {
+	@include span-columns(3 omega, 12);
+}
+
+
+.fullwidth {
+	clear: both;
+	padding: 2em 0;
+}

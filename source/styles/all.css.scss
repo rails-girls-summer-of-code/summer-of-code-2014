@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+@import "susy"; // layout
+@import "compass/typography"; // REM fallback
+@import "compass/css3";
+@import "compass/layout/sticky-footer";
+
+// sticky footer
+@include sticky-footer(128px, "#siteMain", "#mainFooter", "#siteFooter");
+
+// reset
+@import "base/_normalize.scss";
+// variables
+@import "base/_vars.scss";
+
+//@import "base/_mixins.scss";
+@import "base/_fonts.scss";
+@import "base/_typo.scss";
+@import "base/_icons.scss";
+
+// blocks
+@import "blocks/_buttons.scss";
+@import "blocks/_scribbles.scss";
+@import "blocks/_campaign.scss";
+@import "blocks/_sponsors.scss";
+
+@import "gui/_layout.scss";
+@import "gui/_header.scss";
+@import "gui/_footer.scss";
+@import "gui/_content.scss";
+@import "gui/_hero.scss";
+@import "gui/_blog.scss";

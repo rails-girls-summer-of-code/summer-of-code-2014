@@ -1,0 +1,31 @@
+.button {
+	display: inline-block;
+	padding: .8em 1em .7em;
+	background-color: $red;
+	color: $white;
+	text-decoration: none;
+	font-size: 1.2em;
+	-webkit-box-shadow: inset 0px -3px 1px rgba($black, 0.45), 0px 2px 2px rgba($black, 0.25);
+	-moz-box-shadow: inset 0px -3px 1px rgba($black, 0.45), 0px 2px 2px rgba($black, 0.25);
+	box-shadow: inset 0px -3px 1px rgba($black, 0.45), 0px 2px 2px rgba($black, 0.25);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 5px;
+}
+.button:hover {
+	color: $white;
+	text-decoration: none;
+}
+.button:active {
+	text-decoration: none;
+	color: $white;
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba($black, 0.5);
+	box-shadow: inset 1px 1px 1px 1px rgba($black, 0.5);
+}
+.button:hover .icon-star-white {
+	opacity: 1;
+}
+
+.button--call {
+	margin-top: 2em;
+}

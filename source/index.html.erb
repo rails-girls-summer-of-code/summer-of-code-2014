@@ -1,0 +1,57 @@
+---
+title: Index
+---
+
+
+<section class="keyvisual"></section>
+<section class="hero">
+  <div class="inner">
+    <section>
+      <h3 class="hero-sub">Summer 2014 <span class="icon icon--star-red"></span> Worldwide</h3>
+      <h1>Rails Girls <small>Summer of Code</small></h1>
+      <div class="icon-row">
+        <span class="icon icon--star-red"></span>
+        <span class="icon icon--star-red"></span>
+        <span class="icon icon--star-red"></span>
+      </div>
+      <h2>Rails Girls students get into Open Source software projects!</h2>
+    </section>
+  </div>
+</section>
+<article>
+  <div class="inner">
+
+    <main class="content">
+      <section class="content-block">
+        <h1 class="block-title">RGSoC will be back in 2014</h1>
+        <p>Last year has been a blast. This year, we will be back and make another Summer full of code happen.</p>
+        <p>Rails Girls Summer of Code offers students a scholarship so they're free to learn coding. We are all about helping students to further expand their knowledge and skills by contributing to a great Open Source project.</p>
+        <p>Right now, we are getting the 2014 edition into shape. We will soon provide information on how you can take part in the Summer of Code and apply for it. For a start: If you have 3 months this summer, you can already start thinking about which Open Source project you want to learn on.</p>
+      </section>
+
+      <section class="content-block">
+        <h1 class="block-title">Latest Blog Post</h1>
+        <% blog.articles[0...1].each do |article| %>
+          <h2 class="post-title"><%= link_to article.title, article %></h2>
+          <p class="post-date">Posted on <%= article.date.strftime('%A, %B %e %Y') %></p>
+          <%= article.body %>
+        <% end %>
+        <a href="/blog/" title="Read more on our blog" class="button button--call">Read more on our blog!<i class="icon-star-white"></i></a>
+      </section>
+    </main>
+
+    <aside class="sidebar sidebar--home">
+      <section class="sidebar-block">
+        <h2 class="block-title">Support us!</h2>
+        <p>You can support Rails Girls Summer of Code as a coach, a mentor or as an organizer helping in various areas such as fundraising, editing, working on our sites or helping the students find Open Source projects.</p>
+        <p>Interested? <a href="mailto:summer-of-code@railsgirls.com">Get in touch</a>!</p>
+      </section>
+
+      <section class="sidebar-block">
+        <h2 class="block-title">Our Newsletter</h2>
+        <a href="http://railsgirls.us7.list-manage.com/subscribe?u=36677d2ea7383a950d149c68b&amp;id=243f532f22" title="Subscribe to our newsletter" target="_blank" class="button button--call">Subscribe Now! <i class="icon-star-white"></i></a>
+      </section>
+    </aside>
+
+  </div>
+</article>

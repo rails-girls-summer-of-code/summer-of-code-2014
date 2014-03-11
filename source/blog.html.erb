@@ -1,0 +1,23 @@
+---
+title: Blog
+---
+
+<div class="inner">
+  <main class="content">
+
+    <% page_articles.each_with_index do |article, i| %>
+      <article class="post post--list">
+        <h2 class="post-title"><%= link_to article.title, article %></h2>
+        <p class="post-author"><%= link_to article.data.author, '//twitter.com/'+ article.data.twitter %>, <%= article.date.strftime('%A, %B %e %Y') %></p>
+        <%= article.body %>
+      </article>
+    <% end %>
+
+  </main>
+  <aside class="sidebar">
+    <%= partial "modules/_blog-sidebar" %>
+  </aside>
+</div>
+
+
+

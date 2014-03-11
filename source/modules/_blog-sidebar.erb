@@ -1,0 +1,37 @@
+
+<section class="side  bar-block">
+  <div class="scribble scribble10"></div>
+</section>
+<section class="sidebar-block">
+  <h2 class="block-title">Recent Articles</h2>
+  <ol>
+    <% blog.articles[0...10].each do |article| %>
+      <li><%= link_to article.title, article %></li>
+    <% end %>
+  </ol>
+
+  <h2 class="block-title">Tags</h2>
+  <ol>
+    <% blog.tags.each do |tag, articles| %>
+      <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
+    <% end %>
+  </ol>
+
+ <!--  <h2 class="block-title">By Year</h2>
+  <ol>
+    <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+      <li><%= link_to year, blog_year_path(year) %> (<%= articles.size %>)</a></li>
+    <% end %>
+  </ol> -->
+</section>
+<section class="sidebar-block">
+  <h2 class="block-title">Get our Newsletter</h2>
+  <a href="http://railsgirls.us7.list-manage.com/subscribe?u=36677d2ea7383a950d149c68b&id=243f532f22" title="Subscribe to our newsletter" target="_blank" class="button">Subscribe Now! <i class="icon-star-white"></i></a>
+</section>
+<section class="sidebar-block">
+  <h2 class="block-title">Read our Feed</h2>
+  <p class="Icon-text"><a href="/feed.xml"><img src="/images/icons/rss.png" alt="RSS icon" class="imgsize-auto"> RSS Feed</a></p>
+</section>
+<!-- <section class="sidebar-block">
+  <h2>Team Blogs</h2>
+</section> -->

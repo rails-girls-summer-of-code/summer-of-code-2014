@@ -1,0 +1,49 @@
+/**
+ * SCSS Variables
+ */
+
+
+/**
+ * Typography
+ */
+$base-font-size-unitless: 16;
+$base-font-size: $base-font-size-unitless * 1px;
+$base-line-height-unitless: 1.75;
+
+$font-size-xl: 36px;
+$font-size-l: 30px;
+$font-size-ml: 24px;
+$font-size-m: 18px;
+$font-size-s: 16px;
+$font-size-xs: 14px;
+
+
+/**
+ * Colors
+ */
+$white: #fff;
+$black: #000;
+$lightgray: #aaa;
+$red: #de390c;
+$brown: #390D00;
+$yellow: #fce2c1;
+
+/**
+ * Grid
+ */
+$total-columns: 12;
+$column-width: 4.5em;
+$gutter-width: 1em;
+$grid-padding: 0;
+
+/**
+ * Breakpoints
+ */
+$breakpoint-no-query-fallbacks: true;
+
+$layout-s: 30em; // 480
+$layout-sm: 40em; // 640
+$layout-m: 50em; // 800
+$layout-ml: 60em; // 960
+$layout-l: 70em; // 1120
+$layout-xl: 90em; // 1440

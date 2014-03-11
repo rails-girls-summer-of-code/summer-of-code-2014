@@ -1,0 +1,54 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+.inner {
+	@include container;
+}
+
+
+.siteMain {
+	min-height: 100%;
+	clear: both;
+	padding: 2em 0 8em;
+}
+
+.imgsize-auto {
+	width: auto;
+	height: auto;
+}
+.imgAlbum {
+	a {
+		display: inline-block;
+		max-width: 14em;
+	}
+	img {
+		width: auto;
+		height: auto;
+	}
+}
+
+.faq-list {
+	margin: 2em 0 4em;
+	li {
+		margin: .5em 0;
+		&:before {
+			content: "\2192";
+			margin-right: .5em;
+			color: $red;
+		}
+	}
+	.is-nested {
+		padding-left: 2em;
+	}
+}
+
+.list--bullet {
+	padding-left: 2em;
+	li {
+		margin-left: 1em;
+		list-style-type: circle;
+	}
+}

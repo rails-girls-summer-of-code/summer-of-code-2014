@@ -1,0 +1,29 @@
+.icon {
+	display: inline-block;
+	width: .8em;
+	height: .8em;
+	background: {
+		repeat: no-repeat;
+		size: 100%;
+		position: center;
+	}
+} 
+.icon-row {
+	margin: 1em 0 2em;
+}
+.icon--star-red {
+	margin: 0 1.5em;
+	background-image: url(../images/icons/star-red.png);
+}
+
+
+/*
+ * icon and text visually same height
+ */
+.Icon-text {
+	position: relative;
+	img {
+		@include translateY(30%);
+		position: relative;
+	}
+}

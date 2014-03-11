@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Sponsors
+   ========================================================================== */
+.sponsors a {
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 1em;
+  margin-bottom: 0.8em;
+  background: white center center no-repeat;
+  background-size: contain;
+}
+.sponsors a:last-child {
+  margin-right: 0;
+}
+.sponsors.platinum a {
+  width: 320px;
+  height: 181px;
+}
+.sponsors.gold a {
+  width: 320px;
+  height: 131px;
+}
+.sponsors.silver a {
+  width: 235px;
+  height: 93px;
+}
+.sponsors.bronze a {
+  width: 184px;
+  height: 75px;
+}
+.sponsors.scholarship a {
+  width: 151px;
+  height: 61px;
+  background-size: 151px;
+}
+
+.sponsors-intro {
+  margin-bottom: 5em;
+}
+.sponsors-list ul {
+  padding: 0;
+  margin: 2em 0 3em;
+  border-top: 1px solid lightgray;
+}
+.sponsors-list li {
+  overflow: auto;
+  clear: both;
+  list-style-type: none;
+  border-bottom: 1px solid lightgray;
+}
+.center-helper {
+  text-align: center;
+}
+.sponsors-logo {
+  padding: 1em 0;
+}
+
+.sponsors div {
+    width: 33%;
+}
+.sponsors-logo {
+  float: left;
+  width: 20%;
+}
+.sponsors-text {
+  float: right;
+  width: 65%;
+}
+
+
+.sponsors ._37signals  { background-image: url(../images/sponsors/37signals.png); }
+.sponsors .anynines    { background-image: url(../images/sponsors/anynines.png); }
+.sponsors .aupair      { background-image: url(../images/sponsors/aupair.png); }
+.sponsors .bendyworks  { background-image: url(../images/sponsors/bendyworks.png); }
+.sponsors .codegram    { background-image: url(../images/sponsors/codegram.png); }
+.sponsors .confreaks   { background-image: url(../images/sponsors/confreaks.png); }
+.sponsors .dawanda     { background-image: url(../images/sponsors/dawanda.png); }
+.sponsors .dockyard    { background-image: url(../images/sponsors/dockyard.png); }
+.sponsors .engineyard  { background-image: url(../images/sponsors/engineyard.png); }
+.sponsors .envato      { background-image: url(../images/sponsors/envato.png); }
+.sponsors .github      { background-image: url(../images/sponsors/github.png); }
+.sponsors .gnip        { background-image: url(../images/sponsors/gnip.png); }
+.sponsors .google      { background-image: url(../images/sponsors/google.png); }
+.sponsors .groupon     { background-image: url(../images/sponsors/groupon.png); }
+.sponsors .innoq       { background-image: url(../images/sponsors/innoq.png); }
+.sponsors .honeybadger { background-image: url(../images/sponsors/honeybadger.png); }
+.sponsors .frontfoot   { background-image: url(../images/sponsors/frontfoot.png); }
+.sponsors .jumpstart   { background-image: url(../images/sponsors/jumpstart.png); }
+.sponsors .nedap       { background-image: url(../images/sponsors/nedap.png); }
+.sponsors .pivotal     { background-image: url(../images/sponsors/pivotal.png); }
+.sponsors .rackspace   { background-image: url(../images/sponsors/rackspace.png); }
+.sponsors .readmill    { background-image: url(../images/sponsors/readmill.png); }
+.sponsors .soundcloud  { background-image: url(../images/sponsors/soundcloud.png); }
+.sponsors .shopify     { background-image: url(../images/sponsors/shopify.png); }
+.sponsors .supadupa    { background-image: url(../images/sponsors/supadupa.png); }
+.sponsors .travis      { background-image: url(../images/sponsors/travis.png); }
+.sponsors .tilde       { background-image: url(../images/sponsors/tilde.png); }
+.sponsors .upworthy    { background-image: url(../images/sponsors/upworthy.png); }
+.sponsors .wimdu       { background-image: url(../images/sponsors/wimdu.png); }
+.sponsors .wooga       { background-image: url(../images/sponsors/wooga.png); }
+
+.sponsors .arrrrcamp       { background-image: url(../images/confs/arrrrcamp.png); }
+.sponsors .devcon          { background-image: url(../images/confs/devcon.png); }
+.sponsors .distill         { background-image: url(../images/confs/distill.png); }
+.sponsors .dotrb           { background-image: url(../images/confs/dotrb.png); }
+.sponsors .eurucamp        { background-image: url(../images/confs/eurucamp.png); }
+.sponsors .futurestack     { background-image: url(../images/confs/futurestack.png); }
+.sponsors .jrubyconfeu     { background-image: url(../images/confs/jrubyconfeu.png); }
+.sponsors .madisonruby     { background-image: url(../images/confs/madisonruby.png); }
+.sponsors .railsisrael     { background-image: url(../images/confs/railsisrael.png); }
+.sponsors .rubyshift       { background-image: url(../images/confs/rubyshift.png); }
+.sponsors .rupy            { background-image: url(../images/confs/rupy2.png); }
+.sponsors .socoded         { background-image: url(../images/confs/socoded.png); }
+.sponsors .startech        { background-image: url(../images/confs/startech.png); }
+.sponsors .strangeloop     { background-image: url(../images/confs/strangeloop.png); }
+.sponsors .wickedgoodruby  { background-image: url(../images/confs/wickedgoodruby.png); }
+.sponsors .cssconf         { background-image: url(../images/confs/cssconf.png); }
+.sponsors .roguerails      { background-image: url(../images/confs/roguerails.png); }
+.sponsors .bubbleconf      { background-image: url(../images/confs/bubbleconf.png); }

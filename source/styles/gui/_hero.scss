@@ -1,0 +1,68 @@
+
+.keyvisual {
+  @include background-size(cover);
+  @include translateY(-70px);
+  height: 38em;
+  background: {
+    image: url(../images/image.jpg);
+    size: 100%;
+    position: center -4em;
+    repeat: no-repeat;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    background: url(../images/elements/wavy-border.png) repeat-x;
+  }
+}
+
+.hero {
+  min-height: 24em;
+  margin-bottom: 5em;
+  text-align: center;
+  background: {
+    image: url(../images/elements/scribbles-frontpage.png);
+    size: 100%;
+    repeat: no-repeat;
+    position: center;
+  }
+
+  h1 {
+    font-size: 75px;
+    margin: .5em 0 0;
+    line-height: 67px;
+    color: $red;
+    text-shadow: 3px 3px $yellow;
+  }
+  small {
+    display: block;
+    font-size: 45px;
+  }
+  h2 {
+    font-size: $font-size-m;
+    color: $red;
+  }
+}
+.hero-sub {
+  color: $brown;
+  font-family: 'Interstate', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  &:before {
+    content: "";
+    @include translateX(-30%);
+    position: absolute;
+    display: block;
+    left: 50%;
+    margin-top: -3em;
+    width: 48px;
+    height: 35px;
+    z-index: 80;
+    background: url(../images/elements/squiggly-line.png) no-repeat 100% center;
+  }
+}
+
+

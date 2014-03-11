@@ -1,0 +1,102 @@
+/*
+ * Typography
+ */
+
+
+html {
+	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
+	font-size: $base-font-size;
+	line-height: $base-line-height-unitless;
+	color: $brown;
+}
+
+// Make sure (many) elements have the same margin
+blockquote,
+ol,
+ul
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+fieldset {
+	margin: 0 0 1.25em;
+}
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: .5em;
+	font-family: 'Interstate', sans-serif;
+	line-height: 1.1;
+	font-weight: 200;
+}
+h1 {
+	font-size: $font-size-xl;
+}
+h2 {
+	font-size: $font-size-l;
+}
+h3 {
+	font-size: $font-size-ml;
+}
+h4 {
+	font-size: $font-size-m;
+}
+h5 {
+	font-size: $font-size-s;
+}
+h6 {
+	font-size: $font-size-xs;
+}
+fieldset {
+	border: 0;
+	padding: 0;
+}
+ol,
+ul {
+	list-style-type: none;
+	padding: 0;
+	li {
+		line-height: 1.8;
+	}
+}
+blockquote {
+	font-size: $font-size-m;
+	font-style: italic;
+}
+strong,
+bold {
+	font-weight: 600;
+}
+// Links
+a,
+a:hover {
+	color: $red;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+// responsive
+img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+iframe {
+	max-width: 100%;
+}

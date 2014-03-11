@@ -1,0 +1,112 @@
+
+/*
+ * Header Container
+ */
+.siteHeader {
+	position: relative;
+	height: 4em;
+	padding: .4em 0;
+	z-index: 10;
+	background-color: $red;
+	color: $white;
+
+	a {
+		color: $white;
+	}
+}
+
+
+/*
+ * RGSOC Logo
+ */
+.logo {
+	@include pie-clearfix;
+	//position: relative;
+	float: left;
+	width: 6em;
+	height: 1.8em;
+	margin: 0;
+	//padding-top: .3em;
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-indent: 10em;
+		overflow: hidden;
+		white-space: nowrap;
+		background: {
+			image: url(../images/elements/logo.png);
+			repeat: no-repeat;
+			size: 100%;
+			position: center top;
+		}
+	}
+}
+
+.nav {
+
+}
+/*
+ * Header navigation
+ */
+.nav--primary {
+	position: relative;
+	z-index: 10;
+	float: right;
+	li {
+		&:before {
+			content: "";
+			display: inline-block;
+			width: .7em;
+			height: .7em;
+			margin: 0 .8em;
+			background: {
+				image: url(../images/icons/star.png);
+				repeat: no-repeat;
+				size: 100%;
+				position: center top;
+			}
+		}
+		&:first-child:before {
+			content: "";
+			display: none;
+		}
+	}
+	a {
+		padding: .2em 0 .2em .2em;
+	}
+}
+.nav--horizontal {
+	li {
+		display: inline-block;
+	}
+}
+
+/*
+ * Nested nav
+ */
+.nav--nested {
+	//@include transition(all 150ms ease);
+	@include translateY(-200%);
+	position: absolute;
+	z-index: -1;
+	padding: 0.5em 1.5em;
+	margin-left: -1.5em;
+	background-color: $red;
+	li {
+		display: block;
+		margin: .5em 0 .2em;
+		&:before {
+			display: none;
+		}
+	}
+}
+
+/*
+ * trigger dropdown
+ */
+.has-nested:hover {
+	.nav--nested {
+		@include translateY(0);
+	}
+}

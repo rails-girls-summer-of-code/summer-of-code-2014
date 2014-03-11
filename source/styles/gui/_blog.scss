@@ -1,0 +1,41 @@
+
+.post {
+}
+.post--list {
+	padding-bottom: 1.5em;
+	margin-bottom: 4em;
+	border-bottom: $lightgray 1px solid;
+	.post-title {
+		text-transform: none;
+		font-size: $font-size-xl;
+	}
+}
+
+.post-title {
+	text-transform: uppercase;
+	margin-bottom: .2em;
+}
+.post-date {
+	display: inline-block;
+	padding-top: .7em;
+	border-top: solid 1px $lightgray;
+	color: $lightgray;
+}
+.post-author {
+	font-style: italic;
+	a {
+		color: $lightgray;
+	}
+}
+
+.blog-share {
+	margin: 4em 0 5em;
+}
+.blog {
+	.sidebar-block {
+		margin-bottom: 5em;
+		&:first-child {
+			border: none;
+		}
+	}
+}
