@@ -691,6 +691,33 @@ ul.donation-plans a.button:active {
   text-decoration: underline;
 }
 
+table
+{
+  border: none;
+  width:100%;
+}
+
+table th.level
+{
+  font-family: 'Interstate', sans-serif;
+  font-size:1.2em;
+  text-align: center;
+  width:180px;
+}
+
+table th.benefit
+{
+  width:300px;
+}
+
+table td.package-icon
+{
+  background-image: url(../img/approved.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+}
+
 
 /* ==========================================================================
    Sponsors
