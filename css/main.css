@@ -118,6 +118,7 @@ textarea {
   margin-right: 1em;
 }
 
+
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
@@ -146,8 +147,12 @@ textarea {
 }
 .header-container,
 .footer-container,
+.sponsors-container,
 .arrow-white {
     background-color: #de390c;
+}
+.color-red {
+  color: #de390c;
 }
 .index .header-container {
   padding-bottom: .6em;
@@ -353,20 +358,21 @@ http://inspectelement.com/tutorials/create-a-slick-css3-button-with-box-shadow-a
 
 a.mainbutton,
 a.button {
+  display: inline-block;
   margin: 2em 1em 0 0;
-  padding: 20px;
+  padding: 0.4em 1.5em .5em;
   background-color: #e53f05;
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 16px;
   font-weight: normal;
   font-family: Interstate;
-  -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+/*  -webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 5px;
+  border-radius: 5px;*/
 }
 
 .mainbutton:hover,
@@ -651,7 +657,7 @@ ul {
 #sponsoring {
   position: relative;
 }
-ul.donation-plans .donate-button {
+/*ul.donation-plans .donate-button {
   margin: 0 auto;
   text-align: center;
   width: 180px;
@@ -662,21 +668,20 @@ ul.donation-plans .donate-button {
   top: -3px;
   font-size: 1em;
   padding: 15px;
-}
+}*/
 ul.donation-plans a.button:active {
   position: inherit;
 }
-.custom-donation {
+/*.custom-donation {
   margin-bottom: 1em;
 }
 .custom-donation .button {
   margin-top: 0;
-}
+}*/
 .custom-donation input[type=number] {
-  height: 50px;
-  padding: 0px 10px;
-  font-size: 24px;
-  width: 120px;
+  padding: 7px 10px;
+  font-size: 20px;
+  width: 4em;
   margin-right: 20px;
 }
 .footnote {
@@ -692,11 +697,135 @@ ul.donation-plans a.button:active {
 }
 
 
+/*table
+{
+  border: none;
+  width:100%;
+}
+
+table th.level
+{
+  font-family: 'Interstate', sans-serif;
+  font-size:1.2em;
+  text-align: center;
+  width:180px;
+}
+
+table th.benefit
+{
+  width:300px;
+}
+
+table td.package-icon
+{
+  background-image: url(../img/approved.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;*/
+
+.campaign {
+
+}
+.campaign h2 {
+  margin: 2em 0 0;
+}
+.campaign h4 {
+  margin-bottom: .5em;
+}
+.campaign p {
+  margin-top: .5em;
+}
+
+.campaign-goal {
+  width: 80%;
+  margin: auto;
+}
+.campaign-goal h2 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+.campaign-progressbar {
+  position: relative;
+  width: 77.5%;
+  height: 2.5em;
+  background-color: lightgray;
+  border: gray solid 3px;
+}
+.campaign-progess {
+  position: absolute;
+  width: 5%;
+  height: 100%;
+  background-color: #de390c;
+}
+.campain-percentage {
+  position: absolute;
+  top: 0.3em;
+  right: 0;
+  font-size: 24px;
+}
+
+
 /* ==========================================================================
    Sponsors
    ========================================================================== */
-.sponsors a {
+
+.sponsors-container {
+  padding-top: 2em;
+}
+
+.sponsors-container h1 {
+  margin-bottom: 2em;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+.sponsors-container .wrapper {
+  margin-bottom: 0;
+}
+.sponsor-packages {
+  width: 100%;
+  text-align: center;
+}
+.sponsor-packages td {
+  padding: 0.4em;
+  line-height: 1.2;
+}
+.sponsor-packages thead {
+  font-size: 22px;
+  padding-bottom: 1em;
+}
+.sponsor-packages tbody tr {
+  border-bottom: solid 1px lightgray;
+}
+.sponsor-packages tbody tr:last-child {
+  border-bottom: none;
+}
+.sponsor-packages tbody td:nth-child(1),
+.sponsor-packages tbody td:nth-child(2),
+.sponsor-packages tbody td:nth-child(3) {
+  border-right: solid 1px lightgray;
+}
+.icon-check {
   display: inline-block;
+  width: 2.3em;
+  height: 2em;
+  background-image: url(../img/icons/icon-check.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+.align-left {
+  text-align: left;
+}
+.sponsors {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.sponsors a {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
   border-radius: 5px;
   margin-right: 1em;
   margin-bottom: 0.8em;
@@ -706,6 +835,10 @@ ul.donation-plans a.button:active {
 .sponsors a:last-child {
   margin-right: 0;
 }
+/*.sponsors.diamond a {
+  width: 430px;
+  height: 200px;
+}*/
 .sponsors.platinum a {
   width: 320px;
   height: 181px;
@@ -727,6 +860,21 @@ ul.donation-plans a.button:active {
   height: 61px;
   background-size: 151px;
 }
+.supporting-organizer:after {
+  content: "supporting organizer";
+  position: absolute;
+  top: 0.3em;
+  right: -5em;
+  width: 9em;
+  padding: .5em 3em;
+  font-size: 12px;
+  color: white;
+  line-height: 1.2;
+  background-color: lightgray;
+  transform: rotate(32deg);
+  -moz-transform: rotate(32deg);
+  -webkit-transform: rotate(32deg);
+}
 .sponsors ._37signals  { background-image: url(../img/sponsors/37signals.png); }
 .sponsors .anynines    { background-image: url(../img/sponsors/anynines.png); }
 .sponsors .aupair      { background-image: url(../img/sponsors/aupair.png); }
@@ -739,7 +887,7 @@ ul.donation-plans a.button:active {
 .sponsors .envato      { background-image: url(../img/sponsors/envato.png); }
 .sponsors .github      { background-image: url(../img/sponsors/github.png); }
 .sponsors .gnip        { background-image: url(../img/sponsors/gnip.png); }
-.sponsors .google      { background-image: url(../img/sponsors/google.png); }
+.sponsors .google      { background-image: url(../img/sponsors/google-2014.png); }
 .sponsors .groupon     { background-image: url(../img/sponsors/groupon.png); }
 .sponsors .innoq       { background-image: url(../img/sponsors/innoq.png); }
 .sponsors .honeybadger { background-image: url(../img/sponsors/honeybadger.png); }
@@ -752,7 +900,7 @@ ul.donation-plans a.button:active {
 .sponsors .soundcloud  { background-image: url(../img/sponsors/soundcloud.png); }
 .sponsors .shopify     { background-image: url(../img/sponsors/shopify.png); }
 .sponsors .supadupa    { background-image: url(../img/sponsors/supadupa.png); }
-.sponsors .travis      { background-image: url(../img/sponsors/travis.png); }
+.sponsors .travis      { background-image: url(../img/sponsors/travis-2014.png); }
 .sponsors .tilde       { background-image: url(../img/sponsors/tilde.png); }
 .sponsors .upworthy    { background-image: url(../img/sponsors/upworthy.png); }
 .sponsors .wimdu       { background-image: url(../img/sponsors/wimdu.png); }
@@ -1062,75 +1210,4 @@ ul.donation-plans a.button:active {
 }
 .clearfix {
     *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-  * {
-      background: transparent !important;
-      color: #000 !important; /* Black prints faster: h5bp.com/s */
-      box-shadow: none !important;
-      text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-      text-decoration: underline;
-  }
-
-  a[href]:after {
-      content: " (" attr(href) ")";
-  }
-
-  abbr[title]:after {
-      content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
-
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-      content: "";
-  }
-
-  pre,
-  blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid;
-  }
-
-  thead {
-      display: table-header-group; /* h5bp.com/t */
-  }
-
-  tr,
-  img {
-      page-break-inside: avoid;
-  }
-
-  img {
-      max-width: 100% !important;
-  }
-
-  @page {
-      margin: 0.5cm;
-  }
-
-  p,
-  h2,
-  h3 {
-      orphans: 3;
-      widows: 3;
-  }
-
-  h2,
-  h3 {
-      page-break-after: avoid;
-  }
 }
