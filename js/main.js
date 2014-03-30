@@ -2,16 +2,6 @@
 
 $(document).ready(function() {
 
-/**
- * Accordion on the faq
- */
-	$('.accordion').accordion({
-		heightStyle: "content",
-		icons: {
-			"header": "accordion-header",
-			"activeHeader": "accordion-header-active"
-		}
-	});
 
 /* Donation Campaign */
   $(function() {
@@ -62,6 +52,12 @@ $(document).ready(function() {
   $('.hamburger').click(function() {
     $('.nav-primary > ul').toggle('hidden');
     console.log('click');
+  });
+
+  $('.slider').glide({
+      autoplay: 4000,
+      arrows: false,
+      nav: 'body'
   });
 
 

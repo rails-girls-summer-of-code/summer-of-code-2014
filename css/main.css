@@ -304,51 +304,30 @@ textarea {
   background: url(../img/starsrow.png) no-repeat;
 }
 
-/* ===================
-    FAQ Accordion
-   =================== */
+/*
+   Overwrite slider styles
+*/
 
-.page-faq h3 {
-  margin: 2em 0;
+.slider-position {
+  width: 18em;
+}
+.slide * {
+  width: 80%;
+}
+.slide h3 {
   color: #de390c;
-  font-size: 1.4em;
+  font-size: 16px;
 }
-.accordion h3:hover {
-  cursor: pointer;
+.slide h4 {
+  margin-top: .2em;
+  font-size: 15px;
+  font-weight: bold;
 }
-.ui-accordion-header:focus {
-  outline: none;
+.slide p {
+  margin-top: 2em;
+  font-size: 14px;
 }
-.ui-accordion-header:before,
-.ui-accordion-header-active:before {
-  content: "";
-  display: inline-block;
-  padding: .7em 1.5em;
-  margin-right: .5em;
-  background-position: 19px 10px;
-  background-repeat: no-repeat;
-  background-color: #de390c;
-  vertical-align: bottom;
-}
-.ui-accordion-header:before {
-  background-image: url(../img/sprites/faq_arrow_down.png);
-  background-position: 19px 10px;
-  border-radius: 6px;
-}
-.ui-accordion-header:hover:before {
-  background-image: url(../img/sprites/faq_arrow_down_red.png);
-  background-color: #de390c;
-  border-radius: 5px;
-}
-.ui-accordion-header-active:before {
-    background-image: url(../img/sprites/faq_arrow_up.png);
-    background-position: 19px 8px;
-    border-radius: 5px;
-}
-.ui-accordion-header-active:hover:before {
-    position: relative;
-    background-image: url(../img/sprites/faq_arrow_up_red.png);
-}
+
 
 /* ===================
     Buttons (Call to action)
@@ -750,9 +729,6 @@ table td.package-icon
   text-align: center;
   margin: 0 auto;*/
 
-.campaign {
-
-}
 .campaign h2 {
   margin: 2em 0 0;
 }
@@ -1181,6 +1157,9 @@ table td.package-icon
     .container ul.donation-plans {
       width: 105%;
       padding-left: 0px;
+    }
+    .slider-position {
+      float: right;
     }
 }
 
