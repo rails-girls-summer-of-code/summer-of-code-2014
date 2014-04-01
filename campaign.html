@@ -8,39 +8,132 @@ permalink: campaign/
 <script src="https://checkout.stripe.com/v2/checkout.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
 
-<section class="main container">
+<section class="main container campaign">
   <div class="wrapper clearfix">
-    <article>
-    <!-- 
-    <h2><strong>Currently in test mode!</strong></h2>
-    
-      <h3>A total of <strong class="total"></strong> has been donated so far!</h3>
-      --> 
-      <aside class="sidebar">
-           <div class="scribble7"></div>
-       </aside>
-     
-      <h2>COMING SOON!</h2> 
-      <p>We will be launching our global crowdfunding campaign to the world very soon, so make sure to check back next week!</p>
-      <p>While you're waiting, checkout our <a href="/roles/">roles section</a> for more information on being a coach, coaching company, or even an Open Source mentor for our 2014 batch of coders. </p>
-        <p>Want to be an <a href="/sponsors">official sponsor</a> of Rails Girls Summer of Code? Take a look at our <a href=" /sponsors/packages"><strong>Sponsorship packages</strong></a>.</p>
-         <p>For more information on the Rails Girls Summer of Code, please see our <a href="/faq">FAQ</a>.</p>
-     <!-- 
-      <p><strong>This community is just amazing!</strong></p>
-    
-      <p>Our initial plan was to support 10 Rails Girls students to learn and work full-time on Open Source projects - changing the face of tech, one woman at a time.</p>
+    <article class="content">
+      <h1 class="color-red">Sponsoring the Summer of Code</h1>
+      <h4>Getting more women into open source, one Summer at a time</h4>
+      <p>Rails Girls Summer of Code is a global scholarship to help newcomers to code contribute to Open Source projects from July-September each year. By providing this stipend, we enable students to dedicate themselves to their learning projects full-time, and help make Open Source an even better place. Rails Girls Summer of Code was a life-changing experience for our 2013 batch of fellows, and we plan to do even better this year.</p>
 
-      <p>But we received so many <strong>fantastic and moving</strong> student applications that we'd like to <strong>support as many as we can.</strong></p>
+      <div class="donation">
+          <h2 class="color-red">Donations</h2>
+          <p>Your donation to Rails Girls Summer of Code goes straight to participants. Contributions, no matter how small, make a big difference to how many teams we can fund. Help us obliterate our crowdfunding goal for this year, and follow our participant's on their journey to mastering and completing their Open Source projects.</p>
 
-      <p>So, <strong>for every additional $5,000 we raise, we can help another student</strong> to devote 3 months of full-time effort to take their skills to the next level, and get in touch with this amazing Open Source community.</p>
-      <form onsubmit="return false" class="custom-donation">
-        <input type="number" id="custom-donation-amount" placeholder="75.00" min="0" step="25.00"/>
-        <a href="#" class="donate-button button" data-custom="true" data-name="Custom">Donate Now <i class="icon-star-white"></i></a>
-        <p class="stripe-note"><small>Secure Payments by <a href="https://stripe.com/blog/stripe-checkout">Stripe Checkout</a></small></p>
-      </form>
+          <form onsubmit="return false" class="custom-donation" id="stripe-form">
+            <input type="number" id="custom-donation-amount" placeholder="75.00" min="0" step="25.00"/>
+            <a href="#" class="donate-button button" data-custom="true" data-name="Custom">Donate Now</a>
+            <p class="stripe-note"><small>Secure Payments by <a href="https://stripe.com/blog/stripe-checkout">Stripe Checkout</a></small></p>
+          </form>
+        </div>
 
-      <section id="thanks-folks">
-        <h2>Thank you!</h2>
+      <div class="campaign-goal">
+        <h2><small class="color-red">Our Goal </small>10 Teams around the world</h2>
+        <div class="campaign-progressbar">
+          <span class="campaign-progess"></span>
+          <span class="campain-percentage">0%</span>
+        </div>
+      </div>
+
+    </article>
+
+    <aside class="slider-position">
+      <div class="slider">
+        <ul class="slides">
+          <li class="slide">
+            <h3>Graduate Stories from 2013</h3>
+            <h4>Team Punchgirls - Buenos Aires</h4>
+            <p>Launch of their job board which they started working on in the Summer of Code.
+            <a href="https://jobs.punchgirls.com/" target="_blank">jobs.punchgirls.com</a>
+            <img src="/img/stories/punchgirls-logo.png" alt="logo punchgirls"></p>
+          </li>
+          <li class="slide">
+            <h3>Graduate Stories from 2013</h3>
+            <h4>Team Bundler - Los Angeles</h4>
+            <p>Bundler.io got an easier documentation, more features and quite a few bug fixes with the help of <a href="http://2013.teams.railsgirlssummerofcode.org/teams/2" target="_blank">Team Bundler</a>.</p>
+            <p><img src="/img/stories/team-bundler.png"></p>
+          </li>
+          <li class="slide">
+            <h3>Graduate Stories from 2013</h3>
+            <h4>Follow-up Internships</h4>
+            <p>Several RGSoC students headed off into internships as developers. For example:</p>
+            <p>Maja (<a href="http://2013.teams.railsgirlssummerofcode.org/teams/5" target="_blank">Team Spree Girls</a>) @ Soundcloud</p>
+            <p>Carla (<a href="http://2013.teams.railsgirlssummerofcode.org/teams/1" target="_blank">Team Inchworms</a>) @ Amazon</p>
+            <p>Joyce (<a href="http://2013.teams.railsgirlssummerofcode.org/teams/2" target="_blank">Team Bundler</a>) @ CloudCity</p>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <article class="fullwidth campaign">
+      <h2 class="color-red">Sponsoring</h2>
+      <p>INTRO/EXPLANATORY SENTENCE ON SPONSORSHIP PACKAGES.</p>
+      <table class="sponsor-packages">
+        <thead>
+          <tr>
+            <td><strong>Bronze</strong><br>1,000$</td>
+            <td><strong>Silver</strong><br>2,500$</td>
+            <td><strong>Gold</strong><br>5,000$</td>
+            <td><strong>Platinum</strong><br>10,000$</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Logo on our homepage</td>
+          </tr>
+          <tr>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Introduction on our sponsor's page</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Testimonial in our Press Kit</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Dedicated Blog Post</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><span class="icon-check"></span></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Mention and Display of your logo at conferences<sup><a href="#explainTiers">1</a></sup></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><span class="icon-check"></span></td>
+            <td class="align-left">Special place in our <a href="#">Hall of Fame</a></td>
+          </tr>
+          <tr>
+            <td><a href="" class="button">Be a Bronze Sponsor</a></td>
+            <td><a href="" class="button">Be a Silver Sponsor</a></td>
+            <td><a href="" class="button">Be a Gold Sponsor</a></td>
+            <td><a href="" class="button">Be a Platinum Sponsor</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>We also offer a Diamond package. If you are interested, please <a href="mailto:">get in touch.</p>
+      <p>Please also see the <a href="http://railsgirlssummerofcode.org/faq/sponsors/">Sponsors section</a> in our FAQ.<br> If you have any questions, comments, or don’t feel this list quite represents what you have to offer, <a href="mailto:">contact us</a>.</p>
+      <h3 id="explainTiers" class="color-red">Mention & display of our logo</h3>
+      <p>Students are encourage and supported to give full talks or lightning talks at conferences (many of which donate free tickets for them) as well as local programming and tech meetups. Students are presenting their projects at these meetups, and how Summer of Code is helping them do it. Some organizers also present about the Summer of Code program as a whole.</p>
+      <p>All people presenting on behalf of or in conjunction with Summer of Code are supposed to include a slide with all Gold and Platinum sponsors’ logos at the beginning of their presentation. Read about the <a href="http://railsgirlssummerofcode.org/blog/Summer_of">Summer of Code 2013</a> and see how we support our students in attending (in some cases their first) conference.<ultricies class=""></ultricies></p>
+      <div id="thanks-folks">
+        <h2 class="color-red">Thank you!</h2>
         <table id="donations">
           <colgroup><col class="col-gravatar">
             <col class="col-name">
@@ -98,12 +191,15 @@ permalink: campaign/
             </tr>
           </tfoot>
           </table>
-         -->
-
-          <!-- <p>This community is just amazing. Thank you so much!</p> -->
-
-      </section>
-
+      </div>
     </article>
   </div>
 </section> <!-- / .main -->
+<section class="sponsors-container">
+  <div class="wrapper clearfix">
+    <div class="fullwidth">
+      <h1>Sponsors of Rails Girls Summer of Code 2014</h1>
+      {% include _sponsors.html %}
+    </div>
+  </div>
+</section>
