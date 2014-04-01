@@ -276,20 +276,7 @@ textarea {
   text-transform: uppercase;
   text-align: center;
 }
-.list-redstar {
-  padding: 0;
-}
-.list-redstar li {
-  margin-bottom: .3em;
-}
-.list-redstar li:before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  height: 14px;
-  margin: 0 .8em;
-  background: url(../img/star-red.png) no-repeat;
-}
+
 .star-red {
   display: inline-block;
   width: 15px;
@@ -303,6 +290,7 @@ textarea {
   display: inline-block;
   background: url(../img/starsrow.png) no-repeat;
 }
+
 
 /*
    Overwrite slider styles
@@ -928,6 +916,25 @@ table td.package-icon
 .sponsors .roguerails      { background-image: url(../img/confs/roguerails.png); }
 .sponsors .bubbleconf      { background-image: url(../img/confs/bubbleconf.png); }
 
+.list-redstar {
+  padding: 0;
+}
+.list-redstar li {
+  border: none;
+  margin-bottom: .3em;
+}
+.list-redstar li:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+  margin: 0 .8em;
+  background: url(../img/star-red.png) no-repeat;
+}
+
+.package-padding {
+  margin: 0 0.3em;
+}
 
 .nerdies img {
   width: 100%;
