@@ -1,10 +1,11 @@
 # Participate Team
 ### Who are we?
-Moi, we are **Cathy Nangini** and **Qian Zhou** from Helsinki, Finland. This is our first time with RGSoC and we are quite passionate about our RGSoC journey. We are working on **Participate**, a democratic participation platform based on LiquidFeedback,
-an open source system used for internal decision making and policy creation. The platform is built with Ember.js for the front-end and  will use Grape (ruby) for the API backend. **Oliver Barnes** is our project mentor, **Miika Pihlaja** and **Mukesh Thakur** are our coaches, and **Floor Drees** is our project supervisor. 
+Moi, we are [Cathy Nangini](https://github.com/RGSofC-Participate) and [Qian Zhou](https://github.com/RGSofC-Participate) from Helsinki, Finland. This is our first time with RGSoC and we are quite passionate about our RGSoC journey. We are working on [Participate frontend](https://github.com/oliverbarnes/participate-frontend), a democratic participation platform based on LiquidFeedback,
+an open source system used for internal decision making and policy creation. The platform is built with Ember.js for the front-end and  will use Grape (ruby) for the [API backend](https://github.com/oliverbarnes/participate). [Oliver Barnes](https://github.com/oliverbarnes) is our project mentor, [Miika Pihjala](http://fi.linkedin.com/in/miikapihlaja) and [Mukesh Thakur](http://fi.linkedin.com/in/thakurmukesh) are our coaches, and [Floor Drees](https://twitter.com/FloorDrees) is our project supervisor. 
 
-##### Below is our team pic
-![team picture](NOTE TO FLOOR: CAN YOU PUT OUR PHOTO HERE WHICH WE WILL SEND TO YOU VIA EMAIL?)
+##### Below is our team:
+![team picture](http://www.1stfloorgraphics.nl/wp-content/uploads/teamparticipate.png)
+From left to right: supervisor Floor Drees; coach Miika Pihjala, coach Mukesh Thakur, RG Qian Zhou, RG Cathy Nangini; mentor Oliver Barnes 
 
 **Cathy**: I am a data scientist who has studied physics, geo- and bio-physics and uses scientific computing for data analysis. I started learning Rails at the first RG workshop in Helsinki in 2011. I loved the idea of being able to create and build web projects. The workshop gave me confidence and motivated me to dive into Rails further. After I completed Code School’s Rails for Zombies courses (Level 1 and 2), I developed my first simple app called the [Happy OMeter](http://furious-mountain-2724.herokuapp.com/). Later on, my friends and I built a [social network platform](https://bitbucket.org/cnangini/zingatlas) that allows friends to coordinate the transport of gifts and other small personal items when they travel. It expanded my Rails knowledge and understanding of the MVC architecture, but many questions still remain. There is no doubt that RGSoC has furthered my skills. I am now quite addicted to open source and figuring out those features, and it's great to work with Qian to hash out the never-ending mysteries of code.
 
@@ -27,3 +28,16 @@ an open source system used for internal decision making and policy creation. The
 - Be patient and it's ok to slow down. Sometimes you may get stuck on one feature for three days or more. Don't be panic that you aren't making progress. Making the code work is the result, but the process of reading documents, Googling and asking for help to solve the problem is also valuable. You obtain accumulated knowledge while searching for a solution. 
 - Good to explain questions clearly when asking questions. Aside from asking for help from our coaches, we also ask for help from the campfire desk and emberjs channel. It's good to express your problem in clear way, so helpers could give related suggestions and solutions. Sometimes we use gist to post our specific problem. 
 
+### What will we do next for the project?
+**Front-end**
+- Voting
+- Delegation of votes to other users
+- Login
+
+**Back-end**
+- Login
+- Vote weight processing
+
+And we are always looking for new contributors, so please, join us!
+
+Follow us on [twitter](https://twitter.com/RGParticipate) or read our [blog](http://rghelsinki2014.tumblr.com/) for the daily details :)
